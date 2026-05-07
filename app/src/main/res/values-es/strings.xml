@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">IA_Coffe</string>
+    <string name="permission_deny_text">Es necesario aceptar los permisos. Saliendo.</string>
+    <string name="tensorflow_lite_logo_description">TensorFlow Lite logo</string>
+
+    <!-- Strings for object detection settings. -->
+    <string name="pref_category_object_detection">Detección de objetos</string>
+    <string name="pref_key_object_detector_enable_multiple_objects" translatable="false">odemo</string>
+    <string name="pref_key_object_detector_enable_classification" translatable="false">odec</string>
+
+    <!-- Strings for product search settings. -->
+    <string name="pref_category_product_search">Busqueda de Plagas</string>
+    <string name="pref_key_enable_auto_search" translatable="false">pkeas</string>
+    <string name="pref_title_enable_auto_search">Busqueda automatica</string>
+    <string name="pref_key_confirmation_time_in_manual_search" translatable="false">ctims</string>
+    <string name="pref_title_confirmation_time_in_manual_search">Tiempo de confirmación en la búsqueda manual</string>
+    <string name="pref_summary_confirmation_time_in_manual_search">Rango de 100ms a 1000ms</string>
+    <string name="pref_key_confirmation_time_in_auto_search" translatable="false">ctias</string>
+    <string name="pref_title_confirmation_time_in_auto_search">Tiempo de confirmación en la búsqueda automática</string>
+    <string name="pref_summary_confirmation_time_in_auto_search">Rango de 500ms a 2000ms</string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_camera">Camara</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="pref_title_rear_camera_preview_size">Tamaño de la vista previa de la cámara trasera</string>
+
+    <string name="product_search_button">Buscando objecto</string>
+
+    <string name="buttom_sheet_custom_model_title">Objeto personalizado encontrado</string>
+    <string name="static_image_prompt_detected_no_results">No se ha encontrado ningún resultado</string>
+    <string name="static_image_prompt_detected_results">Pulse sobre un punto para inspeccionar</string>
+    <string name="static_image_card_no_result_title">No se ha encontrado ningún resultado</string>
+    <string name="static_image_card_no_result_subtitle">Support text place holder</string>
+    <string name="static_image_preview_card_subtitle">+%d resultados más</string>
+
+    <string name="cd_settings_button">Ajustes</string>
+    <string name="cd_exit_button">Salir</string>
+
+    <string name="cd_close_button">Atras</string>
+    <string name="cd_flash_button">Activar el flash de la cámara</string>
+    <string name="cd_photo_library_button">Upload image</string>
+    <string name="prompt_point_at_an_object">Apunta la cámara a un objeto</string>
+    <string name="prompt_point_at_a_bird">Apunta tu cámara a una planta de café</string>
+    <string name="prompt_hold_camera_steady">Mantener la cámara quieta por un momento</string>
+    <string name="prompt_move_camera_closer">Acercarse a la búsqueda</string>
+    <string name="prompt_searching">Buscando&#8230;</string>
+    <string name="msg_roya2">¡Enfermedad detectada! </string>
+    <string name="msg_roya">
+        ¡Puede reducir la producción de café hasta un 40%!\n\n
+
+        ¿Cómo afecta el roya?\n\n
+        Imagina que las hojas del café son como los pulmones de la planta. La roya es como una neumonía que dificulta la respiración de la planta, debilitándola\n\n
+
+        ¿Cómo combatir el roya?\n\n
+        Combatir la roya es como cuidar un jardín en casa: hay que mantener las plantas limpias, bien alimentadas y vigilarlas regularmente para detectar cualquier problema temprano.\n\n
+
+        Incidencia en los cultivos de café: 40-60%\n
+        Impacto en la producción: 20-40%\n
+        Reducción en la calidad del café: 15-25%
+    </string>
+
+
+    <string name="msg_antracnosis">
+        ¡Puede reducir la producción de café hasta un 25%!\n\n
+        ¿Cómo afecta la antracnosis?\n\n
+        Imagina que los granos de café son como las frutas en un árbol. La antracnosis es como una plaga que pudre las frutas antes de que maduren, dejando al agricultor con menos cosecha y frutos de menor calidad.\n\n
+        ¿Cómo combatir la antracnosis?\n\n
+        Combatir la antracnosis es como cuidar un huerto: hay que mantener las plantas sanas, protegerlas de la humedad excesiva y estar atento a los primeros signos de la enfermedad para actuar rápidamente.\n\n
+        Incidencia en los cultivos de café: 30-40%\n
+        Impacto en la producción total: 15-25%\n
+        Reducción en el puntaje de taza: 10-15%
+    </string>
+    <string name="msg_ojo_de_gallo">
+        ¡Puede reducir la producción de café hasta un 20%!\n\n
+        ¿Cómo afecta el ojo de gallo?\n\n
+        Imagina que las hojas del café son como paneles solares para la planta. El ojo de gallo es como una sombra que cubre estos paneles, reduciendo la energía que la planta puede obtener del sol y debilitándola.\n\n
+        ¿Cómo combatir el ojo de gallo?\n\n
+        Combatir el ojo de gallo es como mantener limpia una ventana: hay que asegurar que las hojas reciban suficiente luz, mantener el ambiente seco y eliminar las partes afectadas para evitar que se propague.\n\n
+
+        Incidencia en los cultivos de café: 25-35%\n
+        Impacto en la producción: 10-20%\n
+        Reducción en la calidad del café: 5-10%
+    </string>
+    <string name="msg_miner">
+        ¡Puede reducir la producción de café hasta un 12%!\n\n
+        ¿Cómo afecta el minador de la hoja?\n\n
+        Imagina que las hojas del café son como las páginas de un libro. El minador es como una polilla que come estas páginas, dejando rastros y agujeros que dificultan la lectura (o en este caso, la capacidad de la planta para hacer fotosíntesis).\n\n
+        ¿Cómo combatir el minador de la hoja?\n\n
+        Combatir el minador de la hoja es como proteger una biblioteca: hay que vigilar constantemente, introducir depredadores naturales que se coman a las polillas, y a veces, retirar los libros (hojas) más dañados para proteger al resto.\n\n
+        Infestación en las plantaciones: 20-30%\n
+        Reducción en la capacidad fotosintética: 15-25%\n
+        Impacto en la producción: 8-12%
+
+    </string>
+    <string name="detected">Detección de hoja de café</string>
+
+    <plurals name="bottom_sheet_title">
+        <item quantity="one">%d coincidencia encontrada</item>
+        <item quantity="other">%d coincidencias encontradas</item>
+    </plurals>
+    <string name="about_us">Acerca de</string>
+    <string name="app_version">2024</string>
+    <string name="integrants">Henry Luzón</string>
+    <string name="develop_by">Desarrollada por:</string>
+    <string name="info_app">Esta aplicación fue desarrollada en la UIDE.</string>
+    <string name="onboarding_protect">Protege</string>
+    <string name="onboarding_tip_one">Cuida y protege tu cultivo sin ser un experto en jardinería</string>
+    <string name="onboarding_analyze">Analiza</string>
+    <string name="onboarding_tip_two">Con el uso de la Inteligencia Artificial va a ser fundamental para tomar decisiones para alcanzar una meta optima.</string>
+    <string name="id_roya">Roya</string>
+    <string name="id_miner">Miner</string>
+    <string name="id_ojo_de_gallo">Ojo de gallo</string>
+    <string name="id_antracnosis">Antracnosis</string>
+    <string name="scientific_name_antracnosis">(Colletotrichum coffeanum)</string>
+    <string name="scientific_name_ojo_de_gallo">(Mycena citricolor)</string>
+    <string name="scientific_name_roya">(Hemileia vastatrix)</string>
+    <string name="scientific_name_miner">(Miner)</string>
+    <string name="msg_default">n/a</string>
+    <string name="temperature">TEMPERATURA</string>
+    <string name="temperature_antracnosis">22ºC</string>
+    <string name="temperature_ojo_de_gallo">23ºC</string>
+    <string name="temperature_roya">21ºC</string>
+    <string name="see_more">ver mas</string>
+
+    <string name="error_no_object_detected">No se detectó ningún objeto. Por favor, apunte a una hoja de café.</string>
+    <string name="error_no_coffee_leaf">No se detectó una hoja de café. Por favor, asegúrese de apuntar a una hoja de café.</string>
+    <string name="action_retry">Reintentar</string>
+
+
+    <string name="msg_restarting_detection">Reiniciando detección...</string>
+    <string name="default_web_client_id">175392642189-t91pb8pcghusb2epp4qfr9e3frtgr7ub.apps.googleusercontent.com</string>
+
+</resources>
